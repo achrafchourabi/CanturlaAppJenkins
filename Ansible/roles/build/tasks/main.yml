@@ -2,7 +2,6 @@
 # tasks file for build
 - name: build app
   command: composer install
-  environment:
-    PATH: /usr/bin
+  working_dir: /var/lib/jenkins/workspace/CanturlaWithJenkins/
   
   
