@@ -2,6 +2,7 @@
 # tasks file for build
 - name: build app
   command: composer install
-  working_dir: /var/lib/jenkins/workspace/CanturlaWithJenkins/
+  args:
+    chdir: /var/lib/jenkins/workspace/CanturlaWithJenkins/
   
   
