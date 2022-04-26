@@ -3,6 +3,6 @@
 - name: build app
   command: composer install
   environment:
-    PATH: /usr/local/bin
+    PATH: /usr/bin
   
   
