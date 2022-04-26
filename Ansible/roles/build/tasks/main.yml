@@ -1,0 +1,6 @@
+---
+# tasks file for build
+- name: build app
+  command: composer install
+  
+  
