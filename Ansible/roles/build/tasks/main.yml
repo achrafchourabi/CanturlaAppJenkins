@@ -1,8 +1,8 @@
 ---
 # tasks file for build
 - name: build app
-  command: composer install
+  command: docker-compose up -d --build
   args:
-    chdir: /var/lib/jenkins/workspace/CanturlaWithJenkins/
+    chdir: /root/lastdocker/achrafAppJenkins
   
   
